@@ -2,7 +2,7 @@ const word = document.querySelector(".input-text");
 const btn = document.querySelector(".btn");
 const result = document.querySelector(".result");
 
-btn.addEventListener("clcik", countVowel);
+btn.addEventListener("click", countVowel);
 
 function countVowel() {
     let vowelCount = 0;
